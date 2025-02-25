@@ -1,1 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --font-bellefair: "Bellefair", serif;
+  --font-barlow: "Barlow", serif;
+  --font-barlow-condensed: "Barlow Condensed", serif;
+  --text-10xl: 144px;
+  --leading-11: 150px;
+  --color-blue-300: #d0d6f9;
+  --color-blue-900: #0b0d17;
+}
